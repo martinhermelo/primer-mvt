@@ -1,0 +1,4 @@
+<h1>Los miembros de la familia Hermelo son:</h1>
+{% for familiar in familiares%}
+<p>El nombre del familiar es {{familiar.name}}, su edad es {{familiar.age}}, nacio el {{familiar.date_birth}} y su mail es {{familiar.email}}</p>
+{% endfor %}
